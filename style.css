@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+body{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 605px;
+    font-family: 'Cairo', sans-serif;
+}
+.game{
+    /* display: none; */
+}
+.mainContainer{
+    background-color:white;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.container{
+    padding: 0px 35px;
+}
+.question{
+    font-size: 30px;
+    margin: 0;
+}
+
+.answer{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+label , input{
+    cursor: pointer;
+}
+.submit{
+    width: 100%;
+    background: purple;
+    position: absolute;
+    bottom: 0;
+    border: none;
+    padding: 5px 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.result{
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
+.result h1{
+   font-size: 50px;
+   margin: 0;
+}
+
+.correct{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wrong{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.play{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: purple;
+    color:white;
+    margin-top: 2%;
+    cursor: pointer;
+}
